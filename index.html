@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport;"content="width=device-width, intial scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200&family=Urbanist:wght@200&display=swap" rel="stylesheet">
+<head>
+    <title>Registration Form</title>
+    <script type="text/javascript" src="ff.js"></script>
+    <link rel="stylesheet" href="ff.css">
+</head>
+    <body class="back">
+        <div class="nav">
+              <h2>Request info</h2>
+        </div> 
+        <div class="wrapper2">
+                    <form class="wrapper1" name="registration" onsubmit='return validation()'>
+                        <fieldset>
+                            <legend>Info</legend>
+                                <label for="fname">Enter your first name.</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                        
+
+                            
+                                <label for="lname">Enter your last name.</label><br>
+                                <input type="text" id="lname" name="lname"><br>
+                            
+                                <label>Gender</label></br>
+                                <select name="gname">
+                                <option selected="" value="Default">Select</option>
+                                <option>Male</option>
+                                <OPTION>Female</OPTION></select></br>
+
+                                <label>Contact</label></br>
+                                <input type="text" placeholder="Mobile Number" name="number"></input>
+                                </br>
+                        
+                                <input type="submit" value="submit" name="submit"></input>
+                        </fieldset>
+                    </form>
+        </div>
+        
+    </body>
+</html>

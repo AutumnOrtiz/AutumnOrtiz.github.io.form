@@ -1,0 +1,40 @@
+.wrapper2 {
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper1 {
+    background-color: #fdeae8;
+    border-radius: 10px;
+    width: 500px;
+    height:400px;
+    padding: 30px;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+
+}
+.nav {
+    background-color: #f69f97;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+input[type=submit] {
+    background-color:#f69f97;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input[type=submit] :hover {
+    background-color:#e4958d;
+}
+.back {
+    background-color: #fef7f8;
+    background-image: linear-gradient(to right, #fef7f8, #fac7c2);
+}
+
+
